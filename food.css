@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Roboto:ital,wght@1,300&display=swap');
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #FAF7F2;
+}
+
+.top_nav {
+    /* position: fixed; */
+    width: 100%;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #2f2f2f;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100%;
+    color: #b54507;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 45px;
+    margin-right: 10px;
+}
+
+.navmenu {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    transition: 1s;
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li a {
+    padding: 21px;
+    font-size: 23px;
+    color: black;
+    text-decoration: none;
+}
+
+.cls {
+    display: none;
+    height: 30px;
+}
+
+.men {
+    display: none;
+    height: 30px;
+}
+
+.bname {
+    text-align: center;
+    color: #f54d00;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+:root {
+    --tenne-tawny: #d65108;
+    --tenne-tawny-dark: #b54507;
+}
+
+.search {
+    transition: 1000ms;
+    min-height: 93vh;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.meal-search {
+    margin: 2rem 0;
+}
+
+.meal-search cite {
+    font-size: 1rem;
+}
+
+.meal-search-box {
+    width: 31rem;
+    margin: 1.2rem 0;
+    display: flex;
+    align-items: stretch;
+}
+
+.search-control,
+.search-btn {
+    width: 100%;
+    cursor: pointer;
+}
+
+.search-control {
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    font-family: inherit;
+    outline: 0;
+    border: 1px solid #d65108;
+    color: #d65108;
+}
+
+.search-control::placeholder {
+    color: #d65108;
+}
+
+.search-btn {
+    width: 55px;
+    height: 55px;
+    font-size: 1.8rem;
+    background: white;
+    color: #d65108;
+    border: 1px solid;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+}
+
+.heading {
+    text-align: center;
+}
+
+.display {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.displaymeal {
+    margin: 20px;
+    background-color: white;
+    /* border-radius: 11px; */
+    height: auto;
+    width: 321px;
+    border: 1px solid black;
+}
+
+.displaymeal img {
+    height: 200px;
+}
+
+.content {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.m_name {
+    height: 20px;
+    margin: 30px 0;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.dishinfo {
+    font-family: 'Lato', sans-serif;
+    width: auto;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.dishinfo p {
+    letter-spacing: 1px;
+}
+
+.button-6 {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+    position: relative;
+    bottom: 0;
+}
+
+.button-6:hover,
+.button-6:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+    transform: translateY(-1px);
+}
+
+.button-6:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+.button-6 a {
+    text-decoration: none;
+    color: black;
+}
+
+.get_recipe {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: #cfdde9;
+    height: 19rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 19px;
+}
+
+@media (max-width: 700px) {
+    .meal-search-box {
+        width: auto;
+    }
+}
